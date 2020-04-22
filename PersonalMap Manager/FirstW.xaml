@@ -1,0 +1,22 @@
+﻿<Window x:Class="PersonalMap_Manager.FirstW"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PersonalMap_Manager"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="LabelNom" Content="Nom:" HorizontalAlignment="Left" Margin="140,112,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelPrenom" Content="Prenom:" HorizontalAlignment="Left" Margin="140,186,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelMail" Content="Mail:" HorizontalAlignment="Left" Margin="140,256,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxNom" HorizontalAlignment="Left" Height="23" Margin="246,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxPrenom" HorizontalAlignment="Left" Height="23" Margin="246,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxMail" HorizontalAlignment="Left" Height="23" Margin="246,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ButtonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="556,186,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSubmit_Click"/>
+        <Label x:Name="Bienvenue" Content="BIENVENUE !&#xD;&#xA;ENREGISTREZ-VOUS" HorizontalAlignment="Left" Margin="328,26,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" FontFamily="Segoe UI Historic"/>
+        <Label x:Name="Credits" Content="PersonalMap Manager of My Cartography objects" HorizontalAlignment="Left" Margin="2,6,0,0" VerticalAlignment="Top" FontSize="8"/>
+        <Button x:Name="CancelButtonFW" Content="Cancel" HorizontalAlignment="Left" Margin="556,241,0,0" VerticalAlignment="Top" Width="75" Click="CancelButtonFW_Click"/>
+
+    </Grid>
+</Window>

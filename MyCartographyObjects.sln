@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartographyObjects", "MyCartographyObjects\MyCartographyObjects.csproj", "{95E23C7E-A9ED-463C-B081-8D39931BBC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalMap Manager", "PersonalMap Manager\PersonalMap Manager.csproj", "{0946E613-E124-48E2-AB22-2DFCF90924EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E23C7E-A9ED-463C-B081-8D39931BBC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E23C7E-A9ED-463C-B081-8D39931BBC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E23C7E-A9ED-463C-B081-8D39931BBC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E23C7E-A9ED-463C-B081-8D39931BBC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0946E613-E124-48E2-AB22-2DFCF90924EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0946E613-E124-48E2-AB22-2DFCF90924EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0946E613-E124-48E2-AB22-2DFCF90924EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0946E613-E124-48E2-AB22-2DFCF90924EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4812E3F0-FB36-4D26-BC82-A109AFC8692E}
+	EndGlobalSection
+EndGlobal
